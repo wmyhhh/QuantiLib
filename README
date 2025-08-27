@@ -9,8 +9,8 @@ pip install -r requirements.txt
 Usage
 Example:
 ```bash
-python3 -m MyLibrary.cli --model_name "Qwen/Qwen3-1.7B" --method bnb --save_tokenizer False --bnb_4bit_use_double_quant True --save_dir ./bnb_4bit
-python3 -m MyLibrary.cli --model_name "Qwen/Qwen3-1.7B" --method gptq --batch_size 1 --gptq_group_size 128
+python3 -m QuantiLib.cli --model_name "Qwen/Qwen3-1.7B" --method bnb --save_tokenizer False --bnb_4bit_use_double_quant True --save_dir ./bnb_4bit
+python3 -m QuantiLib.cli --model_name "Qwen/Qwen3-1.7B" --method gptq --batch_size 1 --gptq_group_size 128
 ```
 Detailed arguments:
 ```bash
