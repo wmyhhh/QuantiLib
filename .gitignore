@@ -1,0 +1,70 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build and dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+quantilib_env/
+*.conda
+*.lock
+
+# PyTorch / Transformers cache
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# HuggingFace cache
+huggingface/
+.huggingface/
+cache/
+.cache/
+datasets/
+transformers_cache/
+hub/
+
+# WandB logs
+wandb/
+*.wandb
+
+# Logs and debug
+logs/
+*.log
+*.out
+*.err
+
+# Results / outputs
+output/
+outputs/
+results/
+runs/
+checkpoints/
+experiments/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
